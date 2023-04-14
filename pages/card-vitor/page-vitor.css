@@ -1,0 +1,162 @@
+.container{
+    width: 2000px;
+    height: 1950px;
+    background-image: url("img/image\ 1\ \(1\).png");
+    color:white;
+    background-repeat: no-repeat;
+    font-family: 'Carter one';
+}
+#titulo{
+    padding-top: 80px;
+}
+.titulos{
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+.sobre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.texto{
+
+    font-size: 20px;
+    width: 823px;
+}
+.musica{
+    border-radius: 20px;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.26);
+    width: 400px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    
+}
+.musicas{
+padding-left: 50px;
+}
+audio::-webkit-media-controls-enclosure{
+    background-color: transparent;
+}
+.nome-musica{
+    color: rgba(0, 0, 0, 0.575);
+    display: flex;
+    justify-content: center;
+}
+/* .caixa-botoes{
+    width: 250px;
+    padding-left: 120px;
+ 
+} */
+.botoes{
+    display: flex;
+    justify-content: space-between;
+}
+.linha-1{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.linha-2{
+    margin-top: 18px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.clipe-1{
+    width: 352px;
+    height: 300px;
+    background-color: rgba(54, 25, 58, 0.295);
+    border-radius: 40px;
+}
+
+.capa-1{
+    width: 286px;
+    height: 235px;
+    margin-left: 34px;
+    border-radius: 10px;
+}
+.clipe-2{
+    width: 352px;
+    height: 300px;
+    background-color: rgba(54, 25, 58, 0.295);
+    border-radius: 40px;
+}
+
+.capa-2{
+    width: 286px;
+    height: 235px;
+    margin-left: 34px;
+    border-radius: 10px;
+}
+.clipe-3{
+    width: 352px;
+    height: 300px;
+    background-color: rgba(54, 25, 58, 0.295);
+    border-radius: 40px;
+}
+
+.capa-3{
+    width: 286px;
+    height: 235px;
+    margin-left: 34px;
+    border-radius: 10px;
+}
+.clipe-4{
+    width: 352px;
+    height: 300px;
+    background-color: rgba(54, 25, 58, 0.295);
+    border-radius: 40px;
+}
+
+.capa-4{
+    width: 286px;
+    height: 235px;
+    margin-left: 34px;
+    border-radius: 10px;
+}
+.linha-clipes1{
+    display: flex;
+    justify-content: center;
+    gap: 112px;
+}
+.linha-clipes2{
+    margin-top: 81px;
+    display: flex;
+    justify-content: center;
+    gap: 112px;
+}
+.link{
+    text-decoration: none;
+}
+.nome-clipe{
+    color: rgba(255, 255, 255, 0.781);
+    display: flex;
+    justify-content: center;
+}
+
+.button-home-div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.button-home{
+    background-color:  rgba(255, 255, 255, 0) ;
+    border: none;
+}
+
+.button-home a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  font-size: 1.5rem;
+  
+}
